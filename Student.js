@@ -3,7 +3,6 @@ var container = document.createElement('p')
 Gender1 = document.querySelectorAll('input[type="radio"]');
 
 
-
 Studentdata ={
 Name1 : document.getElementById("name"),
 Age1 : document.getElementById("age"),
@@ -19,9 +18,9 @@ for(i=0;i<Gender1.length;i++){
       }}
 };
 
-function ridoff(event){
-    console.log(event);
-    event.target.remove();
+function ridoff(){
+console.log("dont know how to delete")
+
 }
 
 
@@ -34,7 +33,7 @@ const Element = (Studentdata) =>
 
 
 `
-        <table>
+        <table id="table">
             <tr>
                 <th>Name</th>
                 <th>Age</th>
@@ -51,7 +50,7 @@ const Element = (Studentdata) =>
             <th>${Studentdata.Course1.value}</th>
             <th>${Studentdata.gender.textContent}</th>
             <th>${Studentdata.Email1.value}</th>
-            <th><button onclick="ridoff(event)">Delete</button></th>
+            <th><button onclick="ridoff()">Delete</button></th>
              </tr>
         </table>
     `
