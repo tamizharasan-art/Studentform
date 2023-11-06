@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+table,th,td{
+    border: 1px solid black;
+    padding: 2px;
+}
+
+input{
+    width: 100%;
+}
+
+.rad{
+    width: 20px;
+}
+
+.btnContainer{
+    border: none;
+}
+
+.btn{
+    width: 100%;
+    margin-left: 75px;
+}
